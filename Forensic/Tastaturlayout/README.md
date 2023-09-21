@@ -6,7 +6,7 @@ Wir haben hier diese Datei auf dem Gerät gefunden, tuen uns aber schwer etwas d
 
 ### Die Datei
 Die Datei enthält viele Zeilen, die alle gleich aufgebaut sind. Nachfolgend der Aufbau beispielhaft dargestellt an einem Ausschnitt der Datei:
-![Alt text](image.png)
+![Alt text](Images/image.png)
 
 ### Erste Gedanken zur Datei
 Die Datei sieht im ersten Moment so aus, als handelte es sich dabei um Eingaben auf einem Touch-Bildschirm. Hierfür spechen unter anderem die Parameter "TABLET_TOOL_TIP" und der "pressure"-Wert, ebenso wie das abwechselnde "UP" und "DOWN". 
@@ -25,19 +25,19 @@ Das von mir programmierte Python3-Programm ist ebenfalls in diesem Ordner unter 
 In dem Programm versuche ich zuerst, alle Koordinaten aus der Datei "type.log" aussortieren.
 Auch lese ich nur die "DOWN"-Werte ein, um Eingaben nicht doppelt im nachher erstellten Plot vorkommen zu lassen.
 Dieser Prozess wird durch folgende Code-Zeilen realisiert:
-![Alt text](image-1.png)
+![Alt text](Images/image-1.png)
 
 Das Plotting geschieht in der Python-Datei erst gegen Ende, ich erkläre es aber als logischer erster Schritt schon hier:
-![Alt text](image-2.png)
+![Alt text](Images/image-2.png)
 
 ### Auswertung des Plots
 Mit dem Plot kann per Hovern der Maus über einer bestimmten Stelle einfach die zugehörige Koordinate erhalten werden:
-![Alt text](image-3.png)
+![Alt text](Images/image-3.png)
 
 Anschließend muss nur der Bereich pro Häufung an Druckpunkten analysiert werden und hier per "IF" ein Buchstabe den Koordinaten zugeordnet werden.
 Dies ist nicht der schönste Weg, ging aber mit Hilfe des Copiloten sehr schnell (da nur die Integer Bereiche händisch abgeändert werden mussten).
 Dies geschieht in folgenden Codezeilen:
-![Alt text](image-4.png)
+![Alt text](Images/image-4.png)
 .
 .
 .
