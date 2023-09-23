@@ -38,7 +38,7 @@ Hier kann ein Passwort angegeben werden, um in den Tresor zu gelangen. Dieses Pa
 Nach einigem Suchen bin ich darauf gekommen, mir das Bild auf der ursprünglichen Seite genauer anzusehen.
 -> Hierfür habe ich dieses heruntergeladen und mit dem Kommandozeilentool "strings" genauer untersucht:
 ```
-strings -n 6 kleinerhelfer.png
+strings -n 6 kleinerhelfer.jpg
 ```
 Nach dem durchsehen der Ausgabe ist recht schnell folgender Block aufgefallen:
 
